@@ -1,0 +1,16 @@
+package:
+    type:           yii2-extension
+    name:           hidev-chkipper
+    title:          Chkipper plugin for HiDev
+    headline:       HiDev Chkipper
+    keywords:       chkipper, hidev, plugin
+    namespace:      hidev\chkipper
+    description:    |
+        [HiDev](https://github.com/hiqdev/hidev) is automation tool mixed with code generator for easier continuous integration.
+
+        This plugin enables [Chkipper](https://hiqdev.com/chkipper/) support for HiDev.
+
+        Provides usual Chkipper operations:
+
+        - keeping history.md file
+        - keeping CHANGELOG.md file
