@@ -1,19 +1,15 @@
 <?php
 
 /*
- * PHPUnit plugin for HiDev
+ * Chkipper plugin for HiDev
  *
  * @link      https://github.com/hiqdev/hidev-chkipper
  * @package   hidev-chkipper
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
  */
 
 namespace hidev\chkipper\controllers;
-
-use hidev\base\File;
-use hidev\handlers\BaseHandler;
-use Yii;
 
 /**
  * Goal for Chkipper.
@@ -36,5 +32,4 @@ class ChkipperController extends \hidev\controllers\CommonController
     {
         return $this->passthru('chkipper');
     }
-
 }
