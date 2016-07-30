@@ -1,5 +1,10 @@
 # hiqdev/hidev-chkipper
 
+## [0.0.2] - 2016-07-31
+
+- Added `bump` and `release` goals
+    - [3048beb] 2016-07-31 + `bump` and `release` goals [sol@hiqdev.com]
+
 ## [0.0.1] - 2016-07-30
 
 - Added release notes processing
@@ -19,3 +24,4 @@
 [dcee4ae]: https://github.com/hiqdev/hidev-chkipper/commit/dcee4ae
 [a7ff2f0]: https://github.com/hiqdev/hidev-chkipper/commit/a7ff2f0
 [7c6d1bc]: https://github.com/hiqdev/hidev-chkipper/commit/7c6d1bc
+[3048beb]: https://github.com/hiqdev/hidev-chkipper/commit/3048beb
