@@ -28,9 +28,9 @@ class ChkipperController extends \hidev\controllers\CommonController
         return $this->actionBump();
     }
 
-    public function actionBump()
+    public function actionBump($version = null)
     {
-        $version = $this->module->request->getParams()[1];
+        $version = $version ?: $this->module->request->getParams()[1];
         $args = ['bump'];
         if ($version) {
             $this->takeGoal('version')->actionMake($version);
@@ -38,5 +38,15 @@ class ChkipperController extends \hidev\controllers\CommonController
         }
 
         return $this->passthru('chkipper', $args);
+    }
+
+    public function actionReleaseNotes()
+    {
+        echo $this->getReleaseNotes() . PHP_EOL;
+    }
+
+    public function getReleaseNotes()
+    {
+        return implode(PHP_EOL, $this->exec('chkipper', 'release-notes'));
     }
 }
