@@ -12,6 +12,16 @@
 return [
     'components' =>  [
         'config' => [
+            'bump' => [
+                'alias' => 'chkipper',
+            ],
+            'release' => [
+                'before' => [
+                    'chkipper',
+                    'git/release',
+                    'github/release',
+                ],
+            ],
             'chkipper' => [
                 'class' => 'hidev\chkipper\controllers\ChkipperController',
             ],
