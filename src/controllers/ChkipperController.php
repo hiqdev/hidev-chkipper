@@ -30,6 +30,13 @@ class ChkipperController extends \hidev\controllers\CommonController
 
     public function actionBump()
     {
-        return $this->passthru('chkipper');
+        $version = $this->module->request->getParams()[1];
+        $args = ['bump'];
+        if ($version) {
+            $this->takeGoal('version')->actionMake($version);
+            $args[] = $version;
+        }
+
+        return $this->passthru('chkipper', $args);
     }
 }
