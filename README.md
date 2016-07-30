@@ -12,7 +12,7 @@ HiDev Chkipper
 
 [HiDev](https://github.com/hiqdev/hidev) is automation tool mixed with code generator for easier continuous integration.
 
-This plugin enables [Chkipper](https://hiqdev.com/chkipper/) support for HiDev.
+This plugin enables [Chkipper](https://github.com/hiqdev/chkipper/) support for HiDev.
 
 Provides usual Chkipper operations:
 
