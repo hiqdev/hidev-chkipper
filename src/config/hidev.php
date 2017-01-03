@@ -15,6 +15,11 @@ return [
             'bump' => [
                 'alias' => 'chkipper',
             ],
+            'release-notes' => [
+                'before' => [
+                    'chkipper/release-notes',
+                ],
+            ],
             'release' => [
                 'before' => [
                     'chkipper',
