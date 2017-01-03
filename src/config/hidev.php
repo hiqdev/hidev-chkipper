@@ -28,10 +28,10 @@ return [
                 ],
             ],
             'chkipper' => [
-                'class' => 'hidev\chkipper\controllers\ChkipperController',
+                'class' => \hidev\chkipper\controllers\ChkipperController::class,
             ],
             'chkipper.json' => [
-                'class' => 'hidev\chkipper\controllers\ChkipperConfigController',
+                'class' => \hidev\chkipper\controllers\ChkipperConfigController::class,
             ],
             'binaries' => [
                 'chkipper' => [
