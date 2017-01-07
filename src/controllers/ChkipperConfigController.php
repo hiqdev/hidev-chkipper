@@ -22,6 +22,7 @@ class ChkipperConfigController extends \hidev\controllers\FileController
         parent::actionLoad();
         $this->setItems([
             'name' => $this->getName(),
+            'authors' => $this->takePackage()->authors,
         ], 'first');
     }
 
