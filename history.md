@@ -53,3 +53,4 @@
 [0.0.1]: https://github.com/hiqdev/hidev-chkipper/releases/tag/0.0.1
 [0.1.0]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.2...0.1.0
 [a7fcc8e]: https://github.com/hiqdev/hidev-chkipper/commit/a7fcc8e
+[0.1.1]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.0...0.1.1
