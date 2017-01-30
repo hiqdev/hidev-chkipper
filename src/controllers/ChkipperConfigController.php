@@ -20,7 +20,7 @@ class ChkipperConfigController extends \hidev\controllers\FileController
     public function actionLoad()
     {
         parent::actionLoad();
-        $this->setItems([
+        $this->mergeItems([
             'name' => $this->getName(),
             'authors' => $this->takePackage()->authors,
         ], 'first');
