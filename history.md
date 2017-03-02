@@ -1,5 +1,11 @@
 # hiqdev/hidev-chkipper
 
+## [0.1.2] - 2017-03-02
+
+- Changed to use merge instead of set when updating `chkkipper.json`
+    - [ee5f341] 2017-03-02 csfixed [@hiqsol]
+    - [dc7fef4] 2017-01-30 used mergeItems <- setItems in ChkipperConfigController [@hiqsol]
+
 ## [0.1.1] - 2017-01-07
 
 - Added passing authors to `chkipper.json`
@@ -48,9 +54,12 @@
 [ad6e6b6]: https://github.com/hiqdev/hidev-chkipper/commit/ad6e6b6
 [8704f9c]: https://github.com/hiqdev/hidev-chkipper/commit/8704f9c
 [76455a7]: https://github.com/hiqdev/hidev-chkipper/commit/76455a7
-[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.0...HEAD
+[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.1...HEAD
 [0.0.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-chkipper/releases/tag/0.0.1
 [0.1.0]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.2...0.1.0
 [a7fcc8e]: https://github.com/hiqdev/hidev-chkipper/commit/a7fcc8e
 [0.1.1]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.0...0.1.1
+[ee5f341]: https://github.com/hiqdev/hidev-chkipper/commit/ee5f341
+[dc7fef4]: https://github.com/hiqdev/hidev-chkipper/commit/dc7fef4
+[0.1.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.1...0.1.2
