@@ -9,35 +9,35 @@
  */
 
 return [
-    'components' =>  [
-        'config' => [
-            'bump' => [
-                'alias' => 'chkipper',
+    'controllerMap' =>  [
+        'chkipper' => [
+            'class' => \hidev\chkipper\console\ChkipperController::class,
+        ],
+        'chkipper.json' => [
+            'class' => \hidev\chkipper\console\ChkipperConfigController::class,
+        ],
+        'bump' => [
+            'class' => \hidev\chkipper\console\ChkipperController::class,
+        ],
+        'release-notes' => [
+            'before' => [
+                'chkipper/release-notes',
             ],
-            'release-notes' => [
-                'before' => [
-                    'chkipper/release-notes',
-                ],
+        ],
+        'release' => [
+            'before' => [
+                'chkipper',
+                'git/release',
+                'github/release',
             ],
-            'release' => [
-                'before' => [
-                    'chkipper',
-                    'git/release',
-                    'github/release',
-                ],
-            ],
+        ],
+    ],
+    'components' => [
+        'binaries' => [
             'chkipper' => [
-                'class' => \hidev\chkipper\controllers\ChkipperController::class,
-            ],
-            'chkipper.json' => [
-                'class' => \hidev\chkipper\controllers\ChkipperConfigController::class,
-            ],
-            'binaries' => [
-                'chkipper' => [
-                    'package'  => 'hiqdev/chkipper',
-                    'version'  => '*',
-                    'download' => 'https://hiqdev.com/chkipper/chkipper.phar',
-                ],
+                'package'  => 'hiqdev/chkipper',
+                'version'  => '*',
+                'download' => 'https://hiqdev.com/chkipper/chkipper.phar',
             ],
         ],
     ],

@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\chkipper\controllers;
+namespace hidev\chkipper\console;
 
 /**
  * Goal for Chkipper.
@@ -32,7 +32,7 @@ class ChkipperController extends \hidev\controllers\CommonController
         $version = $version ?: $this->module->request->getParams()[1];
         $args = ['bump'];
         if ($version) {
-            $this->takeGoal('version')->actionMake($version);
+            $this->take('version')->actionMake($version);
             $args[] = $version;
         }
 
