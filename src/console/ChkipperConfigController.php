@@ -11,23 +11,15 @@
 namespace hidev\chkipper\console;
 
 /**
- * Goal for chkipper.json config file.
+ * `composer.json` file generation.
+ * @author Andrii Vasyliev <sol@hiqdev.com>
  */
-class ChkipperConfigController extends \hidev\controllers\FileController
+class ChkipperConfigController extends \hidev\base\Controller
 {
-    protected $_file = 'chkipper.json';
+    public $defaultAction = 'update';
 
-    public function actionLoad()
+    public function actionUpdate()
     {
-        parent::actionLoad();
-        $this->mergeItems([
-            'name' => $this->getName(),
-            'authors' => $this->take('package')->authors,
-        ], 'first');
-    }
-
-    public function getName()
-    {
-        return $this->take('package')->fullName;
+        $this->take('chkipper.json')->save();
     }
 }

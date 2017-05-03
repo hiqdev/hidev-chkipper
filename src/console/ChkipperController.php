@@ -11,28 +11,25 @@
 namespace hidev\chkipper\console;
 
 /**
- * Goal for Chkipper.
+ * chkipper.
  */
-class ChkipperController extends \hidev\controllers\CommonController
+class ChkipperController extends \hidev\base\Controller
 {
     protected $_before = ['chkipper.json'];
 
+    public $defaultAction = 'bump';
+
     public function getConfiguration()
     {
-        return $this->getGoal('chkipper.json');
-    }
-
-    public function actionMake()
-    {
-        return $this->actionBump();
+        return $this->take('chkipper.json');
     }
 
     public function actionBump($version = null)
     {
         $version = $version ?: $this->module->request->getParams()[1];
         $args = ['bump'];
+        $this->take('version')->update($version);
         if ($version) {
-            $this->take('version')->actionMake($version);
             $args[] = $version;
         }
 
@@ -42,6 +39,11 @@ class ChkipperController extends \hidev\controllers\CommonController
     public function actionReleaseNotes()
     {
         echo $this->getReleaseNotes() . PHP_EOL;
+    }
+
+    public function actionCommit($message = 'bump')
+    {
+        $this->take('vcs')->commit($message);
     }
 
     public function getReleaseNotes()
