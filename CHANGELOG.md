@@ -1,6 +1,6 @@
 # hiqdev/hidev-chkipper
 
-## [0.6.2] - 2017-05-03
+## [0.6.2.1] - 2017-05-03
 
 - Redone to new hidev ([@hiqsol])
 
@@ -33,6 +33,8 @@
 
 ## [dev] - 2017-05-03
 
+## [0.6.2] - 2017-05-03
+
 [@SilverFire]: https://github.com/SilverFire
 [silverfire@hiqdev.com]: https://github.com/SilverFire
 [@tafid]: https://github.com/tafid
@@ -53,3 +55,4 @@
 [dev]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.1...dev
 [0.6.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.6.2
 [0.6.1]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.0...0.6.1
+[0.6.2.1]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.6.2.1
