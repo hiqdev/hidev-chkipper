@@ -1,5 +1,14 @@
 # hiqdev/hidev-chkipper
 
+## [0.6.0] - 2017-05-03
+
+- Redone to new hidev
+    - [18f5464] 2017-05-03 csfixed [@hiqsol]
+    - [16a4380] 2017-05-03 fixed tests [@hiqsol]
+    - [3afa02f] 2017-05-03 redone for new hidev [@hiqsol]
+    - [f0a19bd] 2017-04-30 renamed `hidev.yml` <- .hidev/config.yml [@hiqsol]
+    - [1afc4ec] 2017-04-30 redoing to new hidev [@hiqsol]
+
 ## [0.1.2] - 2017-03-02
 
 - Changed to use merge instead of set when updating `chkkipper.json`
@@ -54,7 +63,7 @@
 [ad6e6b6]: https://github.com/hiqdev/hidev-chkipper/commit/ad6e6b6
 [8704f9c]: https://github.com/hiqdev/hidev-chkipper/commit/8704f9c
 [76455a7]: https://github.com/hiqdev/hidev-chkipper/commit/76455a7
-[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.1...HEAD
+[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...HEAD
 [0.0.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-chkipper/releases/tag/0.0.1
 [0.1.0]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.2...0.1.0
@@ -63,3 +72,9 @@
 [ee5f341]: https://github.com/hiqdev/hidev-chkipper/commit/ee5f341
 [dc7fef4]: https://github.com/hiqdev/hidev-chkipper/commit/dc7fef4
 [0.1.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.1...0.1.2
+[18f5464]: https://github.com/hiqdev/hidev-chkipper/commit/18f5464
+[16a4380]: https://github.com/hiqdev/hidev-chkipper/commit/16a4380
+[3afa02f]: https://github.com/hiqdev/hidev-chkipper/commit/3afa02f
+[f0a19bd]: https://github.com/hiqdev/hidev-chkipper/commit/f0a19bd
+[1afc4ec]: https://github.com/hiqdev/hidev-chkipper/commit/1afc4ec
+[0.6.0]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.6.0
