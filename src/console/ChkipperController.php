@@ -38,16 +38,11 @@ class ChkipperController extends \hidev\base\Controller
 
     public function actionReleaseNotes()
     {
-        echo $this->getReleaseNotes() . PHP_EOL;
+        echo $this->take('chkipper')->getReleaseNotes() . PHP_EOL;
     }
 
     public function actionCommit($message = 'bump')
     {
         $this->take('vcs')->commit($message);
-    }
-
-    public function getReleaseNotes()
-    {
-        return implode(PHP_EOL, $this->exec('chkipper', 'release-notes'));
     }
 }

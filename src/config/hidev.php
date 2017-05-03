@@ -33,6 +33,9 @@ return [
         ],
     ],
     'components' => [
+        'chkipper' => [
+            'class' => \hidev\chkipper\components\Chkipper::class,
+        ],
         'chkipper.json' => [
             'class' => \hidev\chkipper\components\ChkipperConfig::class,
         ],
