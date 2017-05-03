@@ -1,8 +1,9 @@
 # hiqdev/hidev-chkipper
 
-## [0.5.2] - 2017-05-03
+## [0.6.0] - 2017-05-03
 
 - Redone to new hidev
+    - [fda5d76] 2017-05-03 test [@hiqsol]
     - [0d40857] 2017-05-03 added chkipper component [@hiqsol]
     - [18f5464] 2017-05-03 csfixed [@hiqsol]
     - [16a4380] 2017-05-03 fixed tests [@hiqsol]
@@ -46,8 +47,6 @@
 
 ## [Development started] - 2016-07-22
 
-## [0.6.0] - 2017-05-03
-
 [@SilverFire]: https://github.com/SilverFire
 [silverfire@hiqdev.com]: https://github.com/SilverFire
 [@tafid]: https://github.com/tafid
@@ -84,3 +83,4 @@
 [0d40857]: https://github.com/hiqdev/hidev-chkipper/commit/0d40857
 [Development started]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.0...Development started
 [0.5.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.5.2
+[fda5d76]: https://github.com/hiqdev/hidev-chkipper/commit/fda5d76

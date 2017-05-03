@@ -42,3 +42,5 @@
 [0.1.1]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.0...0.1.1
 [0.1.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.1...0.1.2
 [0.6.0]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.6.0
+[Development started]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.0...Development started
+[0.5.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.5.2
