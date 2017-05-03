@@ -8,11 +8,11 @@
  * @copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\chkipper\tests\unit\controllers;
+namespace hidev\chkipper\tests\unit\console;
 
-use hidev\chkipper\controllers\ChkipperController;
+use hidev\chkipper\console\ChkipperController;
 
-class ChkipperControllerTest extends \PHPUnit_Framework_TestCase
+class ChkipperControllerTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var ChkipperController

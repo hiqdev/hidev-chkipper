@@ -8,14 +8,14 @@
  * @copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\chkipper\tests\unit\controllers;
+namespace hidev\chkipper\tests\unit\console;
 
-use hidev\chkipper\controllers\ChkipperConfigController;
+use hidev\chkipper\console\ChkipperConfigController;
 
 /**
  * Test for ChkipperConfigController.
  */
-class ChkipperConfigControllerTest extends \PHPUnit_Framework_TestCase
+class ChkipperConfigControllerTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var ChkipperConfigController
@@ -33,6 +33,6 @@ class ChkipperConfigControllerTest extends \PHPUnit_Framework_TestCase
 
     public function testInit()
     {
-        $this->assertSame('json', $this->object->file->type);
+        $this->assertInstanceOf(\hidev\base\Controller::class, $this->object);
     }
 }
