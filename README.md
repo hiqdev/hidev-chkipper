@@ -1,5 +1,4 @@
-HiDev Chkipper
-==============
+# HiDev Chkipper
 
 **Chkipper plugin for HiDev**
 
@@ -10,14 +9,18 @@ HiDev Chkipper
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-chkipper.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-chkipper/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-chkipper/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-chkipper/dev-master)
 
-[HiDev](https://github.com/hiqdev/hidev) is automation tool mixed with code generator for easier continuous integration.
+[HiDev] is the automation tool mixed with code generator for easier continuous development.
 
-This plugin enables [Chkipper](https://github.com/hiqdev/chkipper/) support for HiDev.
+This plugin enables [Chkipper] support for HiDev.
 
 Provides usual Chkipper operations:
 
-- keeping history.md file
-- keeping CHANGELOG.md file
+- keeping CHANGELOG.md and history.md files
+- keeping chkipper.json file
+- preparing release notes with `hidev release-notes` command
+
+[hidev]:    https://github.com/hiqdev/hidev
+[Chkipper]: https://github.com/hiqdev/chkipper
 
 ## Installation
 

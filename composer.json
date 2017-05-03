@@ -59,6 +59,7 @@
     },
     "autoload": {
         "psr-4": {
+            "hiqdev\\hidev\\chkipper\\": "src",
             "hidev\\chkipper\\": "src"
         }
     },
