@@ -14,7 +14,7 @@ namespace hidev\chkipper\components;
  * `chkipper.json` file component.
  * @author Andrii Vasyliev <sol@hiqdev.com>
  */
-class ChkipperConfig extends \hidev\base\ConfigFile
+class ChkipperConfig extends \hidev\components\File
 {
     protected $_file = 'chkipper.json';
 
