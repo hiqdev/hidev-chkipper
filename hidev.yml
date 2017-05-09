@@ -1,7 +1,7 @@
 package:
     type:           yii2-extension
     name:           hidev-chkipper
-    title:          Chkipper plugin for HiDev
+    title:          HiDev plugin for Chkipper
     headline:       HiDev Chkipper
     keywords:       chkipper, hidev, plugin
     description:    |
@@ -11,8 +11,8 @@ package:
 
         Provides usual Chkipper operations:
 
-        - keeping CHANGELOG.md and history.md files
-        - keeping chkipper.json file
+        - keeping `CHANGELOG.md` and `history.md` files
+        - keeping `chkipper.json` file
         - preparing release notes with `hidev release-notes` command
 
         [hidev]:    https://github.com/hiqdev/hidev

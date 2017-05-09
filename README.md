@@ -1,6 +1,6 @@
 # HiDev Chkipper
 
-**Chkipper plugin for HiDev**
+**HiDev plugin for Chkipper**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-chkipper/v/stable)](https://packagist.org/packages/hiqdev/hidev-chkipper)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-chkipper/downloads)](https://packagist.org/packages/hiqdev/hidev-chkipper)
@@ -15,8 +15,8 @@ This plugin enables [Chkipper] support for HiDev.
 
 Provides usual Chkipper operations:
 
-- keeping CHANGELOG.md and history.md files
-- keeping chkipper.json file
+- keeping `CHANGELOG.md` and `history.md` files
+- keeping `chkipper.json` file
 - preparing release notes with `hidev release-notes` command
 
 [hidev]:    https://github.com/hiqdev/hidev
