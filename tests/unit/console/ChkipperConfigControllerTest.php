@@ -1,6 +1,6 @@
 <?php
 /**
- * Chkipper plugin for HiDev
+ * HiDev plugin for Chkipper.
  *
  * @link      https://github.com/hiqdev/hidev-chkipper
  * @package   hidev-chkipper
