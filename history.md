@@ -1,5 +1,12 @@
 # hiqdev/hidev-chkipper
 
+## [0.6.3] - 2017-05-09
+
+- Renamed `File` <- ConfigFile
+    - [dcddf59] 2017-05-09 csfixed [@hiqsol]
+    - [236bef8] 2017-05-09 csfixed [@hiqsol]
+    - [6abf71d] 2017-05-08 renamed `File` <- ConfigFile [@hiqsol]
+
 ## [0.6.2.1] - 2017-05-03
 
 - Redone to new hidev
@@ -73,7 +80,7 @@
 [ad6e6b6]: https://github.com/hiqdev/hidev-chkipper/commit/ad6e6b6
 [8704f9c]: https://github.com/hiqdev/hidev-chkipper/commit/8704f9c
 [76455a7]: https://github.com/hiqdev/hidev-chkipper/commit/76455a7
-[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...HEAD
+[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.2.1...HEAD
 [0.0.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-chkipper/releases/tag/0.0.1
 [0.1.0]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.2...0.1.0
@@ -96,3 +103,7 @@
 [0.6.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.6.2
 [0.6.1]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.0...0.6.1
 [0.6.2.1]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.6.2.1
+[dcddf59]: https://github.com/hiqdev/hidev-chkipper/commit/dcddf59
+[236bef8]: https://github.com/hiqdev/hidev-chkipper/commit/236bef8
+[6abf71d]: https://github.com/hiqdev/hidev-chkipper/commit/6abf71d
+[0.6.3]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.2.1...0.6.3

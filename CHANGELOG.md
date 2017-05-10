@@ -1,5 +1,9 @@
 # hiqdev/hidev-chkipper
 
+## [0.6.3] - 2017-05-09
+
+- Renamed `File` <- ConfigFile ([@hiqsol])
+
 ## [0.6.2.1] - 2017-05-03
 
 - Redone to new hidev ([@hiqsol])
@@ -43,7 +47,7 @@
 [bladeroot@hiqdev.com]: https://github.com/BladeRoot
 [@hiqsol]: https://github.com/hiqsol
 [sol@hiqdev.com]: https://github.com/hiqsol
-[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...HEAD
+[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.2.1...HEAD
 [0.0.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-chkipper/releases/tag/0.0.1
 [0.1.0]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.2...0.1.0
@@ -56,3 +60,4 @@
 [0.6.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.6.2
 [0.6.1]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.0...0.6.1
 [0.6.2.1]: https://github.com/hiqdev/hidev-chkipper/compare/0.1.2...0.6.2.1
+[0.6.3]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.2.1...0.6.3
