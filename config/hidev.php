@@ -48,6 +48,6 @@ return [
         ],
     ],
     'aliases' => [
-        '@hidev/chkipper' => dirname(__DIR__),
+        '@hidev/chkipper' => dirname(__DIR__) . '/src',
     ],
 ];
