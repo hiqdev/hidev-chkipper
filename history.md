@@ -1,6 +1,18 @@
 # hiqdev/hidev-chkipper
 
-## [0.6.3] - 2017-05-09
+## [0.6.4] - 2020-05-16
+
+- Switch to `yiisoft/composer-config-plugin`
+    - [75f7994] 2020-04-04 Switching to `yiisoft/composer-config-plugin` [@hiqsol]
+- Move config to root dir
+    - [da269e4] 2020-03-07 Moved config to root dir [@hiqsol]
+    - [6ce9a61] 2020-05-16 Remove manual alias because it is added automatically with config plugin [@hiqsol]
+    - [56f058e] 2020-03-07 Added alias [@hiqsol]
+    - [2259678] 2018-10-30 Added branch alias 1.0 [@hiqsol]
+    - [1eab5ff] 2018-03-18 typo [@hiqsol]
+    - [80e5475] 2018-02-22 csfixed [@hiqsol]
+
+## [0.6.3] - 2017-05-10
 
 - Renamed `File` <- ConfigFile
     - [dcddf59] 2017-05-09 csfixed [@hiqsol]
@@ -54,13 +66,13 @@
 
 ## [Development started] - 2016-07-22
 
+## [0.6.2] - 2017-05-03
+
 ## [0.6.1] - 2017-05-03
 
 ## [0.6.0] - 2017-05-03
 
 ## [dev] - 2017-05-03
-
-## [0.6.2] - 2017-05-03
 
 [@SilverFire]: https://github.com/SilverFire
 [silverfire@hiqdev.com]: https://github.com/SilverFire
@@ -80,7 +92,7 @@
 [ad6e6b6]: https://github.com/hiqdev/hidev-chkipper/commit/ad6e6b6
 [8704f9c]: https://github.com/hiqdev/hidev-chkipper/commit/8704f9c
 [76455a7]: https://github.com/hiqdev/hidev-chkipper/commit/76455a7
-[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.2.1...HEAD
+[Under development]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.3...HEAD
 [0.0.2]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-chkipper/releases/tag/0.0.1
 [0.1.0]: https://github.com/hiqdev/hidev-chkipper/compare/0.0.2...0.1.0
@@ -107,3 +119,11 @@
 [236bef8]: https://github.com/hiqdev/hidev-chkipper/commit/236bef8
 [6abf71d]: https://github.com/hiqdev/hidev-chkipper/commit/6abf71d
 [0.6.3]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.2.1...0.6.3
+[6ce9a61]: https://github.com/hiqdev/hidev-chkipper/commit/6ce9a61
+[75f7994]: https://github.com/hiqdev/hidev-chkipper/commit/75f7994
+[da269e4]: https://github.com/hiqdev/hidev-chkipper/commit/da269e4
+[56f058e]: https://github.com/hiqdev/hidev-chkipper/commit/56f058e
+[2259678]: https://github.com/hiqdev/hidev-chkipper/commit/2259678
+[1eab5ff]: https://github.com/hiqdev/hidev-chkipper/commit/1eab5ff
+[80e5475]: https://github.com/hiqdev/hidev-chkipper/commit/80e5475
+[0.6.4]: https://github.com/hiqdev/hidev-chkipper/compare/0.6.3...0.6.4
